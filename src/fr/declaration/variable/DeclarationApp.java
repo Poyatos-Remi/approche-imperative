@@ -12,7 +12,15 @@ public class DeclarationApp {
 		double var6 = 42.6D;
 		char car1 = 'a';
 		boolean bool = true;
-		String randomString = "Voici le résultat d'un calcul : \n 1+5=6";
+		String randomString = "Voici le rÃ©sultat d'un calcul : \n 1+5=6";
+		System.out.println(var1);
+		System.out.println(var2);
+		System.out.println(var3);
+		System.out.println(var4);
+		System.out.println(var5);
+		System.out.println(var6);
+		System.out.println(car1);
+		System.out.println(bool);
 		System.out.println(randomString);
 	}
 
