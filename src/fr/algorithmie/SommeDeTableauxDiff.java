@@ -9,10 +9,12 @@ public class SommeDeTableauxDiff {
 		int[] arraySomme = new int[array.length];
 
 		for(int i = 0; i<= array.length-1; i++) {
-			if(i>array2.length) {
+			if(i>array2.length-1) {
 				arraySomme[i]=array[i];
 			}
-			arraySomme[i]=(array[i]+array2[i]);
+			else{
+				arraySomme[i]=(array[i]+array2[i]);
+			}
 			System.out.println(arraySomme[i]);
 		}
 		
