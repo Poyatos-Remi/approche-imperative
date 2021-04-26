@@ -15,7 +15,7 @@ public class InteractifSommeArithmetique {
             
             System.out.printf( "La somme arithmetique de tous les entiers compris de 1 à " + a + " est égale à : " );
             
-            while ( i<=a) {
+            while ( i <= a) {
             	somme=somme+i;
             	i++;
             }
