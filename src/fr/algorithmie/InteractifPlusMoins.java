@@ -13,7 +13,7 @@ public class InteractifPlusMoins {
 
 		Random random = new Random();
 
-		int value = random.nextInt(max + min) + min;
+		int value = random.nextInt(max - min) + min;
 		
 
 			try ( Scanner scanner = new Scanner( System.in ) ) {
